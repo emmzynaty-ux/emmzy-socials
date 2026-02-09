@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 const API_URL = "https://ogaviral.com/api/v2";
-const API_KEY = "YOUR_API_KEY";
+const API_KEY = "e26c76083046c3128aeb1942afe56286";
 
 // DB FILES
 if (!fs.existsSync("users.json")) fs.writeFileSync("users.json","[]");
